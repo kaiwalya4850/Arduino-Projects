@@ -13,6 +13,7 @@ The codes are for:
 All of this is included under the folder named proteus_stuff.
 
 - LED
+- Buzzer-button
 
 
 Adding more under this folder soon...
