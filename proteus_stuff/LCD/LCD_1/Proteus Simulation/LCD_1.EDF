@@ -1,0 +1,393 @@
+(PCB LCD_1
+ (parser
+  (host_cad ARES)
+  (host_version 7.7 SP2)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -106.78160 -55.98160 128.37160 61.06160))
+  (boundary (path signal 0.20320 -106.68000 -55.88000 128.27000 -55.88000 128.27000 60.96000
+   -106.68000 60.96000 -106.68000 -55.88000))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction orthogonal))
+  (grid via  0.63500)
+  (grid wire 0.63500)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA_POWER
+   $VIA_SIGNAL
+   (spare
+   )
+  )
+  (rule
+   (width 0.30480)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component "ARDUINO SHIELD_ARD1" (place ARD1 38.10000 26.67000 front 0))
+  (component LCD_CONNECTOR_16_LCD1 (place LCD1 53.34000 3.81000 front 90))
+ )
+ (library
+  (image "ARDUINO SHIELD_ARD1" (side front)
+   (outline (rect TOP -63.60160 -50.90160 5.18160 2.64160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 2 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 3 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 4 -27.94000 -48.26000)
+   (pin PS0 (rotate 0) 5 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 6 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 7 -25.40000 -48.26000)
+   (pin PS0 (rotate 0) 8 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 9 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 10 -21.59000 0.00000)
+   (pin PS0 (rotate 0) 11 -24.13000 0.00000)
+   (pin PS0 (rotate 0) 12 -26.67000 0.00000)
+   (pin PS0 (rotate 0) 13 -29.21000 0.00000)
+   (pin PS0 (rotate 0) 14 -31.75000 0.00000)
+   (pin PS0 (rotate 0) 15 -34.29000 0.00000)
+   (pin PS0 (rotate 0) 16 -35.56000 -48.26000)
+   (pin PS0 (rotate 0) 17 -12.70000 -48.26000)
+   (pin PS0 (rotate 0) 18 -10.16000 -48.26000)
+   (pin PS0 (rotate 0) 19 -7.62000 -48.26000)
+   (pin PS0 (rotate 0) 20 -5.08000 -48.26000)
+   (pin PS0 (rotate 0) 21 -2.54000 -48.26000)
+   (pin PS0 (rotate 0) 22 0.00000 -48.26000)
+   (pin PS0 (rotate 0) 23 -39.37000 0.00000)
+   (pin PS0 (rotate 0) 24 -22.86000 -48.26000)
+   (pin PS0 (rotate 0) 25 -20.32000 -48.26000)
+   (pin PS0 (rotate 0) 26 -36.83000 0.00000)
+   (pin PS0 (rotate 0) 27 -33.02000 -48.26000)
+   (pin PS0 (rotate 0) 28 -30.48000 -48.26000)
+   (pin PS0 (rotate 0) 29 -44.45000 0.00000)
+   (pin PS0 (rotate 0) 30 -41.91000 0.00000)
+   (pin PS0 (rotate 0) 31 -17.78000 -48.26000)
+  )
+  (image LCD_CONNECTOR_16_LCD1 (side front)
+   (outline (rect TOP -16.61160 -1.37160 24.23160 1.37160))
+   (pin PS1 (rotate 0) 0 -15.24000 0.00000)
+   (pin PS1 (rotate 0) 1 -12.70000 0.00000)
+   (pin PS1 (rotate 0) 2 -10.16000 0.00000)
+   (pin PS1 (rotate 0) 3 -7.62000 0.00000)
+   (pin PS1 (rotate 0) 4 -5.08000 0.00000)
+   (pin PS1 (rotate 0) 5 -2.54000 0.00000)
+   (pin PS1 (rotate 0) 6 0.00000 0.00000)
+   (pin PS1 (rotate 0) 7 2.54000 0.00000)
+   (pin PS1 (rotate 0) 8 5.08000 0.00000)
+   (pin PS1 (rotate 0) 9 7.62000 0.00000)
+   (pin PS1 (rotate 0) 10 10.16000 0.00000)
+   (pin PS1 (rotate 0) 11 12.70000 0.00000)
+   (pin PS1 (rotate 0) 12 15.24000 0.00000)
+   (pin PS1 (rotate 0) 13 17.78000 0.00000)
+   (pin PS1 (rotate 0) 14 20.32000 0.00000)
+   (pin PS1 (rotate 0) 15 22.86000 0.00000)
+  )
+  (padstack PS0 (absolute on)
+   (shape (circle TOP 1.77800 0 0))
+   (shape (circle I1 1.77800 0 0))
+   (shape (circle I2 1.77800 0 0))
+   (shape (circle I3 1.77800 0 0))
+   (shape (circle I4 1.77800 0 0))
+   (shape (circle I5 1.77800 0 0))
+   (shape (circle I6 1.77800 0 0))
+   (shape (circle I7 1.77800 0 0))
+   (shape (circle I8 1.77800 0 0))
+   (shape (circle I9 1.77800 0 0))
+   (shape (circle I10 1.77800 0 0))
+   (shape (circle I11 1.77800 0 0))
+   (shape (circle I12 1.77800 0 0))
+   (shape (circle I13 1.77800 0 0))
+   (shape (circle I14 1.77800 0 0))
+   (shape (circle BOT 1.77800 0 0))
+  )
+  (padstack PS1 (absolute on)
+   (shape (rect TOP -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I1 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I2 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I3 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I4 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I5 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I6 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I7 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I8 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I9 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I10 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I11 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I12 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I13 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I14 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect BOT -0.63500 -0.63500 0.63500 0.63500))
+  )
+  (padstack $VIA_POWER (absolute on)
+   (shape (circle TOP 1.27000 0 0))
+   (shape (circle I1 1.27000 0 0))
+   (shape (circle I2 1.27000 0 0))
+   (shape (circle I3 1.27000 0 0))
+   (shape (circle I4 1.27000 0 0))
+   (shape (circle I5 1.27000 0 0))
+   (shape (circle I6 1.27000 0 0))
+   (shape (circle I7 1.27000 0 0))
+   (shape (circle I8 1.27000 0 0))
+   (shape (circle I9 1.27000 0 0))
+   (shape (circle I10 1.27000 0 0))
+   (shape (circle I11 1.27000 0 0))
+   (shape (circle I12 1.27000 0 0))
+   (shape (circle I13 1.27000 0 0))
+   (shape (circle I14 1.27000 0 0))
+   (shape (circle BOT 1.27000 0 0))
+  )
+  (padstack $VIA_SIGNAL (absolute on)
+   (shape (circle TOP 1.27000 0 0))
+   (shape (circle I1 1.27000 0 0))
+   (shape (circle I2 1.27000 0 0))
+   (shape (circle I3 1.27000 0 0))
+   (shape (circle I4 1.27000 0 0))
+   (shape (circle I5 1.27000 0 0))
+   (shape (circle I6 1.27000 0 0))
+   (shape (circle I7 1.27000 0 0))
+   (shape (circle I8 1.27000 0 0))
+   (shape (circle I9 1.27000 0 0))
+   (shape (circle I10 1.27000 0 0))
+   (shape (circle I11 1.27000 0 0))
+   (shape (circle I12 1.27000 0 0))
+   (shape (circle I13 1.27000 0 0))
+   (shape (circle I14 1.27000 0 0))
+   (shape (circle BOT 1.27000 0 0))
+  )
+ )
+ (network
+  (net "GND"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_POWER)
+   )
+   (pins ARD1-24 LCD1-0 LCD1-4)
+  )
+  (net "PIN0"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-0)
+  )
+  (net "PIN1"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-1)
+  )
+  (net "PIN10"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-12)
+  )
+  (net "PIN11"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-13 LCD1-5)
+  )
+  (net "PIN12"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-14 LCD1-3)
+  )
+  (net "PIN13"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-15)
+  )
+  (net "PIN2"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-2 LCD1-13)
+  )
+  (net "PIN3"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-3 LCD1-12)
+  )
+  (net "PIN4"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-5 LCD1-11)
+  )
+  (net "PIN5"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-6 LCD1-10)
+  )
+  (net "PIN6"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-8)
+  )
+  (net "PIN7"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-9)
+  )
+  (net "PIN8"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-10)
+  )
+  (net "PIN9"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-11)
+  )
+  (net "PINA0"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-17)
+  )
+  (net "PINA1"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-18)
+  )
+  (net "PINA2"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-19)
+  )
+  (net "PINA3"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-20)
+  )
+  (net "PINA4"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-21)
+  )
+  (net "PINA5"
+   (circuit
+    (use_layer BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins ARD1-22)
+  )
+  (net "VCC/VDD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_POWER)
+   )
+   (pins ARD1-7 LCD1-1)
+  )
+  (class POWER
+   "GND"
+   "VCC/VDD"
+   (rule
+    (width 0.30480)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+  (class SIGNAL
+   "PIN0"
+   "PIN1"
+   "PIN10"
+   "PIN11"
+   "PIN12"
+   "PIN13"
+   "PIN2"
+   "PIN3"
+   "PIN4"
+   "PIN5"
+   "PIN6"
+   "PIN7"
+   "PIN8"
+   "PIN9"
+   "PINA0"
+   "PINA1"
+   "PINA2"
+   "PINA3"
+   "PINA4"
+   "PINA5"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.50800)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+ )
+)
