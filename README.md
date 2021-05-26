@@ -14,6 +14,9 @@ All of this is included under the folder named proteus_stuff.
 
 - LED
 - Buzzer-button
+- LCD
+- Relav 5v
+- Motors(adding servo and stepper motor soon)
 
 
 Adding more under this folder soon...
